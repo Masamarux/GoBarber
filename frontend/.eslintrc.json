@@ -47,8 +47,10 @@
       "react/jsx-no-bind": ["warn", {
         "allowArrowFunctions": true,
         "allowFunctions": true,
-        "allowBind": true
-      }]
+        "allowBind": false
+      }],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
     },
     "settings": {
       "import/resolver": {
