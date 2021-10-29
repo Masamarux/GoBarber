@@ -1,9 +1,9 @@
 import React from 'react';
-import { RectButtonProperties } from 'react-native-gesture-handler';
+import { RippleProps } from 'react-native-material-ripple';
 
 import { Container, ButtonText } from './styles';
 
-interface ButtonProps extends RectButtonProperties {
+interface ButtonProps extends RippleProps {
   children: string;
 }
 

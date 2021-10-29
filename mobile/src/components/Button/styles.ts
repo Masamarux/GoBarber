@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import { RectButton } from 'react-native-gesture-handler';
+import Ripple from 'react-native-material-ripple';
 
-export const Container = styled(RectButton)`
+export const Container = styled(Ripple)`
   width: 100%;
   height: 60px;
   background: #ff9000;
