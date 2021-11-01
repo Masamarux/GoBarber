@@ -18,7 +18,7 @@ import api from '../../services/api';
 
 import Button from '../../components/Button';
 import Input from '../../components/Input';
-import { AuthStackParamList } from '../../routes';
+import { AuthStackParamList } from '../../routes/auth.routes';
 
 import getValidationErrors from '../../utils/getValidationErrors';
 

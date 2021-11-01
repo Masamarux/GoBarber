@@ -4,7 +4,7 @@ import { View, StatusBar } from 'react-native';
 
 import AppProvider from './hooks';
 
-import { AuthRoutes as Routes } from './routes';
+import Routes from './routes';
 
 const App: React.FC = () => (
   <NavigationContainer>
